@@ -1,0 +1,48 @@
+[
+  { "id": "pati",           "nama": "Pati Sagu",                    "ikon": "🌾", "kategori": "dasar",       "asal_sagu": true  },
+  { "id": "ela",            "nama": "Ampas Sagu / Ela",             "ikon": "🟤", "kategori": "dasar",       "asal_sagu": true  },
+  { "id": "daun",           "nama": "Daun Sagu",                    "ikon": "🍃", "kategori": "dasar",       "asal_sagu": true  },
+  { "id": "kulit",          "nama": "Kulit Batang Sagu",            "ikon": "🪵", "kategori": "dasar",       "asal_sagu": true  },
+  { "id": "pelepah",        "nama": "Pelepah Sagu",                 "ikon": "🎋", "kategori": "dasar",       "asal_sagu": true  },
+
+  { "id": "gliserol",       "nama": "Gliserol",                     "ikon": "🧴", "kategori": "aditif",      "asal_sagu": false },
+  { "id": "sorbitol",       "nama": "Sorbitol",                     "ikon": "🍯", "kategori": "aditif",      "asal_sagu": false },
+  { "id": "asam_sitrat",    "nama": "Asam Sitrat",                  "ikon": "🧂", "kategori": "aditif",      "asal_sagu": false },
+  { "id": "sukrosa",        "nama": "Sukrosa",                      "ikon": "🍬", "kategori": "aditif",      "asal_sagu": false },
+  { "id": "air",            "nama": "Air",                          "ikon": "💧", "kategori": "aditif",      "asal_sagu": false },
+
+  { "id": "mcc",            "nama": "MCC",                          "ikon": "🧱", "kategori": "filler",      "asal_sagu": false },
+  { "id": "pektin",         "nama": "Pektin Pala",                  "ikon": "🌿", "kategori": "filler",      "asal_sagu": false },
+  { "id": "gelatin",        "nama": "Gelatin Ikan",                 "ikon": "🐟", "kategori": "filler",      "asal_sagu": false },
+  { "id": "kitosan",        "nama": "Kitosan",                      "ikon": "🦠", "kategori": "filler",      "asal_sagu": false },
+  { "id": "phycocyanin",    "nama": "Phycocyanin",                  "ikon": "🌸", "kategori": "filler",      "asal_sagu": false },
+  { "id": "nano_zno",       "nama": "Nano-ZnO",                     "ikon": "⚪", "kategori": "filler",      "asal_sagu": false },
+  { "id": "nanocellulose",  "nama": "Nanocellulose",                "ikon": "🪵", "kategori": "filler",      "asal_sagu": false },
+  { "id": "alginat",        "nama": "Alginat",                      "ikon": "🧪", "kategori": "filler",      "asal_sagu": false },
+
+  { "id": "resin",          "nama": "Resin",                        "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "pu",             "nama": "Polyurethane (PU)",            "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "pf",             "nama": "Phenol-Formaldehyde (PF)",     "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "naoh",           "nama": "NaOH",                         "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "asam_asetat",    "nama": "Asam Asetat",                  "ikon": "🔥", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "hcl",            "nama": "HCl",                          "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "zncl2",          "nama": "ZnCl2",                        "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+  { "id": "koh",            "nama": "KOH",                          "ikon": "🧪", "kategori": "perekat",     "asal_sagu": false },
+
+  { "id": "terigu",         "nama": "Tepung Terigu",                "ikon": "🌾", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "kacang_hijau",   "nama": "Tepung Kacang Hijau",          "ikon": "🫘", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "whole_egg",      "nama": "Whole Egg Powder",             "ikon": "🥚", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "egg_white",      "nama": "Egg-White Powder",             "ikon": "🥚", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "tempe",          "nama": "Tempe",                        "ikon": "🍄", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "gluten",         "nama": "Gluten",                       "ikon": "🍞", "kategori": "pangan",      "asal_sagu": false },
+  { "id": "binder",         "nama": "Binder / Pati Tergelatinisasi","ikon": "🍬", "kategori": "pangan",      "asal_sagu": false },
+
+  { "id": "arang_kelapa",   "nama": "Arang Tempurung Kelapa",       "ikon": "🥥", "kategori": "biomassa",    "asal_sagu": false },
+  { "id": "serbuk_gergaji", "nama": "Serbuk Gergaji",               "ikon": "🪵", "kategori": "biomassa",    "asal_sagu": false },
+  { "id": "kotoran_ayam",   "nama": "Kotoran Ayam",                 "ikon": "🐔", "kategori": "biomassa",    "asal_sagu": false },
+  { "id": "efb",            "nama": "EFB",                          "ikon": "🌴", "kategori": "biomassa",    "asal_sagu": false },
+  { "id": "trichoderma",    "nama": "Trichoderma",                  "ikon": "🦠", "kategori": "biomassa",    "asal_sagu": false },
+  { "id": "ragi",           "nama": "Ragi / Enzim",                 "ikon": "🧫", "kategori": "biomassa",    "asal_sagu": false },
+
+  { "id": "pengikat",       "nama": "Tali / Pengikat",              "ikon": "🪢", "kategori": "tradisional", "asal_sagu": false }
+]

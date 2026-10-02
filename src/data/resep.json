@@ -1,0 +1,39 @@
+[
+  { "id":"r01","produk_id":"bioplastik_film",     "bahan_ids":["pati","gliserol","air"],              "rasio":{"gliserol":"40%"},"proses":"60C 15min -> gelatinisasi 70C -> oven 60C 24jam","catatan":"Jalur material paling banyak diteliti" },
+  { "id":"r02","produk_id":"film_mcc",            "bahan_ids":["pati","mcc","sorbitol","asam_sitrat"],"rasio":{"mcc":"20%","sorbitol":"30%","asam_sitrat":"0,95%"},"proses":"Casting","catatan":"TS 15,84 MPa" },
+  { "id":"r03","produk_id":"edible_film",         "bahan_ids":["pati","gliserol","pektin"],           "rasio":{"pektin":"0-25%"},"proses":"Pemanasan -> casting -> pengeringan","catatan":null },
+  { "id":"r04","produk_id":"edible_film_gelatin", "bahan_ids":["pati","gelatin","gliserol"],          "rasio":{"gliserol":"25%"},"proses":"Pencampuran -> casting","catatan":"Rasio sagu:gelatin 1:0-5:1" },
+  { "id":"r05","produk_id":"active_packaging",    "bahan_ids":["pati","phycocyanin","nano_zno"],      "rasio":{"phycocyanin":"0,2-1%","nano_zno":"0,01%"},"proses":"Pembuatan film -> uji aktif","catatan":null },
+  { "id":"r06","produk_id":"film_antimikroba",    "bahan_ids":["pati","gliserol","kitosan"],          "rasio":{},"proses":"Casting","catatan":"Studi 2024, umur simpan roti" },
+  { "id":"r07","produk_id":"mi_sagu",             "bahan_ids":["pati","binder","air"],                "rasio":{},"proses":"Adonan -> ekstrusi -> kukus -> kering","catatan":"HMT 110C/16jam" },
+  { "id":"r08","produk_id":"roti_sagu",           "bahan_ids":["pati","terigu","gluten"],             "rasio":{"sagu":"<=30%"},"proses":"Adonan -> fermentasi -> panggang","catatan":null },
+  { "id":"r09","produk_id":"muffin_sagu",         "bahan_ids":["pati","tempe"],                       "rasio":{"sagu:tempe":"2:1 atau 1:1"},"proses":"Formulasi -> pemanggangan","catatan":null },
+  { "id":"r10","produk_id":"bio_adhesive",        "bahan_ids":["pati","naoh","gliserol"],             "rasio":{},"proses":"Modifikasi -> pencampuran","catatan":"Bebas formaldehida" },
+
+  { "id":"r11","produk_id":"papan_partikel_ela",  "bahan_ids":["ela","asam_sitrat","sukrosa"],        "rasio":{"perekat":"20%"},"proses":"Campur -> hot press 180C 15min 20kg/cm2","catatan":"5 rasio asam sitrat:sukrosa" },
+  { "id":"r12","produk_id":"papan_komposit_ela",  "bahan_ids":["ela","resin"],                        "rasio":{},"proses":"Cacah -> campur -> press","catatan":null },
+  { "id":"r13","produk_id":"bioplastik_residu",   "bahan_ids":["ela","gliserol"],                     "rasio":{},"proses":"Ekstraksi pati -> casting","catatan":"Ekstraksi ultrasound" },
+  { "id":"r14","produk_id":"bioetanol",           "bahan_ids":["ela","hcl","ragi"],                   "rasio":{"hcl":"3,1-12,4%"},"proses":"Hidrolisis -> sakarifikasi -> fermentasi","catatan":"Substrat 15%" },
+  { "id":"r15","produk_id":"pakan_fermentasi",    "bahan_ids":["ela","ragi"],                         "rasio":{},"proses":"Fermentasi -> formulasi pakan","catatan":"Substitusi onggok 25-100%" },
+  { "id":"r16","produk_id":"serat_pangan",        "bahan_ids":["ela","air","ragi"],                   "rasio":{},"proses":"Hidrolisis -> pemurnian","catatan":"TDF 92,98%" },
+  { "id":"r17","produk_id":"kompos_ela",          "bahan_ids":["ela","kotoran_ayam"],                 "rasio":{},"proses":"Pengomposan aerob","catatan":null },
+  { "id":"r18","produk_id":"kompos_blok",         "bahan_ids":["ela","pati","air"],                   "rasio":{"pati":"10-30 g"},"proses":"Campur -> cetak/press","catatan":"100 g limbah + pati + air" },
+  { "id":"r19","produk_id":"pupuk_hayati",        "bahan_ids":["ela","trichoderma"],                  "rasio":{},"proses":"Pengayaan inokulan","catatan":null },
+  { "id":"r20","produk_id":"biokompos",           "bahan_ids":["ela","kotoran_ayam","trichoderma"],   "rasio":{},"proses":"Bioproses","catatan":"Inokulum 2 tablet/kg" },
+
+  { "id":"r21","produk_id":"atap",                "bahan_ids":["daun","pelepah","pengikat"],          "rasio":{},"proses":"Lipat 3 lapis -> anyam -> jemur","catatan":"Diuji termal vs seng" },
+  { "id":"r22","produk_id":"dinding",             "bahan_ids":["daun","pelepah","pengikat"],          "rasio":{},"proses":"Anyam/susun -> pasang","catatan":null },
+  { "id":"r23","produk_id":"anyaman",             "bahan_ids":["daun"],                               "rasio":{},"proses":"Kering -> potong -> anyam","catatan":"Jalur tradisional" },
+
+  { "id":"r24","produk_id":"papan_partikel_kulit","bahan_ids":["kulit","asam_sitrat","sukrosa"],      "rasio":{},"proses":"Cacah -> campur -> hot press 160C 20min","catatan":"Rasio 0:100-100:0" },
+  { "id":"r25","produk_id":"papan_serat_kulit",   "bahan_ids":["kulit","resin"],                      "rasio":{},"proses":"Serat -> campur -> press","catatan":null },
+  { "id":"r26","produk_id":"briket",              "bahan_ids":["kulit","arang_kelapa"],               "rasio":{"arang_kulit:arang_kelapa":"50:50"},"proses":"Karbonisasi -> campur -> cetak","catatan":"Optimum 50:50, 7748 kal/g" },
+  { "id":"r27","produk_id":"karbon_aktif",        "bahan_ids":["kulit","zncl2"],                      "rasio":{"zncl2":"15-35%"},"proses":"Impregnasi -> aktivasi -> cuci","catatan":"Optimum ZnCl2 30%" },
+  { "id":"r28","produk_id":"kompos_kulit",        "bahan_ids":["kulit","kotoran_ayam","efb"],         "rasio":{"kulit:kotoran:efb":"6:3:1"},"proses":"Campur -> pengomposan","catatan":null },
+
+  { "id":"r29","produk_id":"papan_pu",            "bahan_ids":["pelepah","pu"],                       "rasio":{"pu":"10-14%"},"proses":"Cacah -> cold press 25kg/cm2 24jam","catatan":null },
+  { "id":"r30","produk_id":"papan_pf",            "bahan_ids":["pelepah","pf"],                       "rasio":{"pf":"10-14%"},"proses":"Susun -> hot press 140C 10min","catatan":"Bahaya formaldehida" },
+  { "id":"r31","produk_id":"bioplastik_nano",     "bahan_ids":["pelepah","alginat","gliserol"],       "rasio":{"nanocellulose":"0-0,6%"},"proses":"Ekstraksi -> campur -> casting","catatan":null },
+  { "id":"r32","produk_id":"pulp",                "bahan_ids":["pelepah","asam_asetat"],              "rasio":{"asam_asetat":"80-85%"},"proses":"Organosolv 60-120min -> cuci","catatan":"Optimum 85% 120min" },
+  { "id":"r33","produk_id":"media_jamur",         "bahan_ids":["pelepah","serbuk_gergaji"],           "rasio":{"pelepah:gergaji":"25:75-75:25"},"proses":"Campur -> steril -> inokulasi","catatan":null }
+]

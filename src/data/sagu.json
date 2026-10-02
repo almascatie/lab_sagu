@@ -1,0 +1,208 @@
+[
+  {
+    "id": "pati_sagu",
+    "nama": "Pati Sagu",
+    "nama_lain": [
+      "Sago starch"
+    ],
+    "definisi": "Pati yang diperoleh dari bagian dalam batang tanaman sagu melalui proses ekstraksi.",
+    "asal": "Batang sagu",
+    "karakter_utama": [
+      "kaya pati",
+      "dapat mengalami gelatinisasi",
+      "dapat membentuk matriks",
+      "dapat membentuk film",
+      "biodegradable"
+    ],
+    "komponen_utama": [
+      "amilosa",
+      "amilopektin"
+    ],
+    "bentuk_bahan": [
+      "tepung",
+      "bubuk"
+    ],
+    "proses_yang_relevan": [
+      "ekstraksi",
+      "pengeringan",
+      "penggilingan",
+      "gelatinisasi"
+    ],
+    "potensi_pemanfaatan": [
+      "pangan",
+      "film berbasis pati",
+      "bioplastik",
+      "perekat",
+      "material berbasis pati"
+    ]
+  },
+  {
+    "id": "ela_sagu",
+    "nama": "Ela Sagu",
+    "nama_lain": [
+      "Ampas Sagu",
+      "Residu Sagu"
+    ],
+    "definisi": "Residu berserat yang tersisa setelah proses ekstraksi pati dari batang sagu.",
+    "asal": "Batang sagu",
+    "karakter_utama": [
+      "berserat",
+      "biomassa lignoselulosa",
+      "mengandung selulosa",
+      "mengandung hemiselulosa",
+      "mengandung lignin",
+      "dapat mengandung sisa pati"
+    ],
+    "komponen_utama": [
+      "selulosa",
+      "hemiselulosa",
+      "lignin",
+      "sisa pati"
+    ],
+    "bentuk_bahan": [
+      "ampas",
+      "serat",
+      "serbuk"
+    ],
+    "proses_yang_relevan": [
+      "pengeringan",
+      "penggilingan",
+      "pemisahan serat",
+      "fermentasi",
+      "ekstraksi"
+    ],
+    "potensi_pemanfaatan": [
+      "filler",
+      "komposit",
+      "papan berbasis serat",
+      "fermentasi",
+      "kompos",
+      "biomassa",
+      "media budidaya"
+    ]
+  },
+  {
+    "id": "daun_sagu",
+    "nama": "Daun Sagu",
+    "nama_lain": [
+      "Daun palma sagu"
+    ],
+    "definisi": "Bagian daun dari tanaman sagu yang dapat dimanfaatkan sebagai bahan berbasis serat dan biomassa.",
+    "asal": "Tanaman sagu",
+    "karakter_utama": [
+      "berserat",
+      "berbentuk lembaran",
+      "biomassa tanaman",
+      "dapat dikeringkan",
+      "dapat dianyam"
+    ],
+    "komponen_utama": [
+      "serat tanaman",
+      "material lignoselulosa"
+    ],
+    "bentuk_bahan": [
+      "daun",
+      "lembaran",
+      "potongan",
+      "serat"
+    ],
+    "proses_yang_relevan": [
+      "pengeringan",
+      "pemotongan",
+      "pemisahan serat",
+      "penganyaman"
+    ],
+    "potensi_pemanfaatan": [
+      "anyaman",
+      "kerajinan",
+      "atap",
+      "dinding",
+      "material berbasis serat"
+    ]
+  },
+  {
+    "id": "kulit_batang_sagu",
+    "nama": "Kulit Batang Sagu",
+    "nama_lain": [
+      "Kulit Sagu"
+    ],
+    "definisi": "Bagian luar batang tanaman sagu yang memiliki struktur berserat dan dapat dimanfaatkan sebagai biomassa.",
+    "asal": "Bagian luar batang sagu",
+    "karakter_utama": [
+      "berserat",
+      "lignoselulosa",
+      "relatif keras",
+      "memiliki struktur tanaman yang kuat"
+    ],
+    "komponen_utama": [
+      "selulosa",
+      "hemiselulosa",
+      "lignin"
+    ],
+    "bentuk_bahan": [
+      "potongan kulit",
+      "serpihan",
+      "serbuk",
+      "serat"
+    ],
+    "proses_yang_relevan": [
+      "pengeringan",
+      "pemotongan",
+      "penggilingan",
+      "pulping",
+      "karbonisasi"
+    ],
+    "potensi_pemanfaatan": [
+      "papan komposit",
+      "material berbasis serat",
+      "biokomposit",
+      "briket biomassa",
+      "arang",
+      "karbon aktif"
+    ]
+  },
+  {
+    "id": "pelepah_sagu",
+    "nama": "Pelepah Sagu",
+    "nama_lain": [
+      "Pelepah daun sagu"
+    ],
+    "definisi": "Bagian pelepah tanaman sagu yang menopang atau menjadi bagian penghubung daun dengan tanaman.",
+    "asal": "Tanaman sagu",
+    "karakter_utama": [
+      "berserat",
+      "lignoselulosa",
+      "mengandung selulosa",
+      "dapat menjadi sumber serat",
+      "dapat diolah menjadi pulp"
+    ],
+    "komponen_utama": [
+      "selulosa",
+      "hemiselulosa",
+      "lignin"
+    ],
+    "bentuk_bahan": [
+      "pelepah",
+      "potongan",
+      "serpihan",
+      "serat"
+    ],
+    "proses_yang_relevan": [
+      "pengeringan",
+      "pemotongan",
+      "pulping",
+      "isolasi selulosa",
+      "pengolahan serat",
+      "produksi nanoselulosa"
+    ],
+    "potensi_pemanfaatan": [
+      "pulp",
+      "kertas",
+      "komposit",
+      "serat penguat",
+      "sumber selulosa",
+      "bahan turunan selulosa",
+      "nanoselulosa setelah proses pengolahan"
+    ]
+  }
+]

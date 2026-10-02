@@ -1,0 +1,220 @@
+/* ============================================================
+   src/index.css
+   Palet + tema dasar SAGU Innovation Lab
+   ============================================================ */
+
+@import "tailwindcss";
+@import "@heroui/styles";
+
+/* ---- Variabel tema (palet hijau-coklat sesuai logo) ---- */
+:root {
+  --panel-glass: rgba(255, 253, 248, 0.78);
+  --panel-border: rgba(107, 90, 68, 0.18);
+
+  --text-primary: #3a2e1f;
+  --text-secondary: #6b5a44;
+  --text-muted: #98876e;
+
+  --accent-campur: #5a8f4a;
+  --accent-campur-hover: #6ba05a;
+  --accent-sukses: #4a8f3f;
+  --accent-ai: #8b6dc9;
+
+  --card-bg: rgba(255, 252, 245, 0.72);
+  --card-bg-hover: rgba(255, 252, 245, 0.92);
+  --card-border: rgba(107, 90, 68, 0.2);
+  --card-selected-bg: rgba(90, 143, 74, 0.18);
+  --card-selected-border: rgba(90, 143, 74, 0.6);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-primary);
+  background: #2a2119;
+}
+
+/* ---- Latar lab — blur dinamis ---- */
+.lab-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: filter 0.5s ease;
+  transform: scale(1.02);
+  /* Default: tidak blur */
+  filter: blur(0px) brightness(1);
+}
+
+.lab-background.is-blurred {
+  filter: blur(6px) brightness(0.92) saturate(0.95);
+  transform: scale(1.05);
+}
+
+/* Overlay lembut di atas latar (supaya konten tetap terbaca) */
+.lab-background-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  transition: background 0.5s ease;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 253, 248, 0.15) 0%,
+      rgba(58, 46, 31, 0.10) 100%
+    );
+}
+
+.lab-background-overlay.is-focused {
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(255, 253, 248, 0.20) 0%,
+      rgba(58, 46, 31, 0.35) 70%,
+      rgba(58, 46, 31, 0.50) 100%
+    );
+}
+
+/* ---- Panel kaca ---- */
+.panel-glass {
+  background: var(--panel-glass);
+  backdrop-filter: blur(14px) saturate(1.05);
+  -webkit-backdrop-filter: blur(14px) saturate(1.05);
+  border: 1px solid var(--panel-border);
+  box-shadow:
+    0 4px 20px rgba(58, 46, 31, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+/* ---- Kartu bahan ---- */
+.card-bahan {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 3px rgba(58, 46, 31, 0.06);
+  cursor: pointer;
+}
+
+.card-bahan:hover {
+  background: var(--card-bg-hover);
+  border-color: rgba(90, 143, 74, 0.4);
+  transform: translateX(2px);
+  box-shadow: 0 2px 8px rgba(58, 46, 31, 0.12);
+}
+
+.card-bahan.is-selected {
+  background: var(--card-selected-bg);
+  border-color: var(--card-selected-border);
+  box-shadow: 0 0 0 1px var(--card-selected-border);
+}
+
+/* Varian khusus sidebar (lebar penuh) */
+.card-bahan-rak {
+  width: 100%;
+  text-align: left;
+}
+
+/* Varian khusus meja (kotak) */
+.card-bahan-meja {
+  width: 5rem;
+  height: 5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ---- Tombol CAMPUR ---- */
+.btn-campur {
+  background: linear-gradient(180deg, var(--accent-campur-hover), var(--accent-campur));
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  box-shadow:
+    0 3px 0 #3d6b30,
+    0 6px 20px rgba(90, 143, 74, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.1s ease;
+}
+
+.btn-campur:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow:
+    0 4px 0 #3d6b30,
+    0 8px 24px rgba(90, 143, 74, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.btn-campur:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow:
+    0 1px 0 #3d6b30,
+    0 3px 10px rgba(90, 143, 74, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.btn-campur:disabled {
+  background: rgba(107, 90, 68, 0.25);
+  color: rgba(58, 46, 31, 0.4);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+/* ---- Meja racik — benar-benar kosong ---- */
+.meja-racik {
+  background: transparent;
+  border: 2px dashed rgba(90, 143, 74, 0.35);
+  transition: all 0.2s ease;
+}
+
+.meja-racik.is-drop-target {
+  border-color: rgba(90, 143, 74, 0.9);
+  background: rgba(90, 143, 74, 0.08);
+  box-shadow: inset 0 0 60px rgba(90, 143, 74, 0.12);
+}
+
+/* ---- Scrollbar ---- */
+.scroll-soft {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(107, 90, 68, 0.3) transparent;
+}
+
+.scroll-soft::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-soft::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-soft::-webkit-scrollbar-thumb {
+  background: rgba(107, 90, 68, 0.3);
+  border-radius: 3px;
+}
+
+.scroll-soft::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 90, 68, 0.5);
+}
+
+/* ---- Util teks ---- */
+.text-primary-lab { color: var(--text-primary); }
+.text-secondary-lab { color: var(--text-secondary); }
+.text-muted-lab { color: var(--text-muted); }
+
+.label-section {
+  color: var(--text-muted);
+  letter-spacing: 0.15em;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

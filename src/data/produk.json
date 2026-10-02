@@ -1,0 +1,39 @@
+[
+  { "id": "bioplastik_film",     "nama": "Bioplastik Film",              "ikon": "🧫", "kategori": "Material",   "bahan_dasar": "pati" },
+  { "id": "film_mcc",            "nama": "Film Bioplastik MCC",          "ikon": "🧫", "kategori": "Material",   "bahan_dasar": "pati" },
+  { "id": "edible_film",         "nama": "Edible Film",                  "ikon": "🎞️", "kategori": "Pangan",     "bahan_dasar": "pati" },
+  { "id": "edible_film_gelatin", "nama": "Edible Film Sagu-Gelatin",     "ikon": "🎞️", "kategori": "Pangan",     "bahan_dasar": "pati" },
+  { "id": "active_packaging",    "nama": "Active Food Packaging",        "ikon": "📦", "kategori": "Material",   "bahan_dasar": "pati" },
+  { "id": "film_antimikroba",    "nama": "Film Kemasan Antimikroba",     "ikon": "📦", "kategori": "Material",   "bahan_dasar": "pati" },
+  { "id": "mi_sagu",             "nama": "Mi Sagu",                      "ikon": "🍜", "kategori": "Pangan",     "bahan_dasar": "pati" },
+  { "id": "roti_sagu",           "nama": "Roti Sagu",                    "ikon": "🍞", "kategori": "Pangan",     "bahan_dasar": "pati" },
+  { "id": "muffin_sagu",         "nama": "Muffin/Cookies/Pudding",       "ikon": "🧁", "kategori": "Pangan",     "bahan_dasar": "pati" },
+  { "id": "bio_adhesive",        "nama": "Bio-Adhesive",                 "ikon": "🧴", "kategori": "Material",   "bahan_dasar": "pati" },
+
+  { "id": "papan_partikel_ela",  "nama": "Papan Partikel",               "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "ela" },
+  { "id": "papan_komposit_ela",  "nama": "Papan Komposit",               "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "ela" },
+  { "id": "bioplastik_residu",   "nama": "Bioplastik dari Pati Residu",  "ikon": "🧫", "kategori": "Material",   "bahan_dasar": "ela" },
+  { "id": "bioetanol",           "nama": "Bioetanol",                    "ikon": "⚗️", "kategori": "Energi",     "bahan_dasar": "ela" },
+  { "id": "pakan_fermentasi",    "nama": "Pakan Ternak Fermentasi",      "ikon": "🐄", "kategori": "Pertanian",  "bahan_dasar": "ela" },
+  { "id": "serat_pangan",        "nama": "Konsentrat Serat Pangan",      "ikon": "🥣", "kategori": "Pangan",     "bahan_dasar": "ela" },
+  { "id": "kompos_ela",          "nama": "Kompos",                       "ikon": "🌱", "kategori": "Pertanian",  "bahan_dasar": "ela" },
+  { "id": "kompos_blok",         "nama": "Kompos Blok / Media Tanam",    "ikon": "🟫", "kategori": "Pertanian",  "bahan_dasar": "ela" },
+  { "id": "pupuk_hayati",        "nama": "Media Pupuk Hayati",           "ikon": "🧫", "kategori": "Pertanian",  "bahan_dasar": "ela" },
+  { "id": "biokompos",           "nama": "Biokompos Aktif",              "ikon": "🌱", "kategori": "Pertanian",  "bahan_dasar": "ela" },
+
+  { "id": "atap",                "nama": "Atap Rumah",                   "ikon": "🏠", "kategori": "Bangunan",   "bahan_dasar": "daun" },
+  { "id": "dinding",             "nama": "Dinding Tradisional",          "ikon": "🧱", "kategori": "Bangunan",   "bahan_dasar": "daun" },
+  { "id": "anyaman",             "nama": "Kerajinan / Anyaman",          "ikon": "🧺", "kategori": "Kerajinan",  "bahan_dasar": "daun" },
+
+  { "id": "papan_partikel_kulit","nama": "Papan Partikel",               "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "kulit" },
+  { "id": "papan_serat_kulit",   "nama": "Papan Serat / Komposit",       "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "kulit" },
+  { "id": "briket",              "nama": "Briket Biomassa",              "ikon": "⚫", "kategori": "Energi",     "bahan_dasar": "kulit" },
+  { "id": "karbon_aktif",        "nama": "Karbon Aktif",                 "ikon": "⚫", "kategori": "Material",   "bahan_dasar": "kulit" },
+  { "id": "kompos_kulit",        "nama": "Kompos",                       "ikon": "🌱", "kategori": "Pertanian",  "bahan_dasar": "kulit" },
+
+  { "id": "papan_pu",            "nama": "Papan Komposit PU",            "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "pelepah" },
+  { "id": "papan_pf",            "nama": "Papan Komposit PF",            "ikon": "🪵", "kategori": "Material",   "bahan_dasar": "pelepah" },
+  { "id": "bioplastik_nano",     "nama": "Bioplastik Nanocellulose",     "ikon": "🧫", "kategori": "Material",   "bahan_dasar": "pelepah" },
+  { "id": "pulp",                "nama": "Pulp / Kertas",                "ikon": "📄", "kategori": "Material",   "bahan_dasar": "pelepah" },
+  { "id": "media_jamur",         "nama": "Media Budidaya Jamur",         "ikon": "🍄", "kategori": "Pertanian",  "bahan_dasar": "pelepah" }
+]
