@@ -1,6 +1,6 @@
 // ============================================================
 // api/tanya-ai.ts
-// Vercel Serverless Function — self-contained
+// Vercel Serverless Function — self-contained (tanpa import dari src/)
 // ============================================================
 
 import type { VercelRequest, VercelResponse } from '@vercel/node'
@@ -160,23 +160,19 @@ export default async function handler(
   req: VercelRequest,
   res: VercelResponse
 ) {
-  // Hanya POST
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' })
     return
   }
 
-  // Cek API key
   const apiKey = process.env.DEEPSEEK_API_KEY
   if (!apiKey) {
     res.status(500).json({
       error: 'DEEPSEEK_API_KEY belum diset di environment Vercel.',
-      hint: 'Buka Vercel → Settings → Environment Variables → tambah DEEPSEEK_API_KEY, lalu Redeploy.',
     })
     return
   }
 
-  // Ambil body
   const body = req.body as TanyaAIRequest
 
   if (!body?.bahan || !Array.isArray(body.bahan) || body.bahan.length < 2) {
@@ -244,7 +240,6 @@ export default async function handler(
     }
 
     const hasil = normalisasiOutput(parsed)
-
     res.status(200).json({ hasil })
   } catch (err) {
     const pesan = err instanceof Error ? err.message : 'Unknown error'
